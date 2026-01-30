@@ -1,3 +1,6 @@
+// Change-Log
+// 2026-01-30 - V1.1.0 - Change-Log eingefügt
+
 // Echo Client - send a message to an Echo Server and wait for the reply
 // 
 // java  -jar MyEchoClient.jar  <ServerIP>  <ListenerPort>
@@ -13,7 +16,7 @@ public class MyEchoClient {
 
     public static void main(String[] args) throws IOException {
 
-	    String version = new String( "MyEchoClient - Version 1.0.0" );
+	    String version = new String( "MyEchoClient - Version 1.1.0" );
 	
         int myPort = 10080;
         String serverHostname = new String("127.0.0.1");
