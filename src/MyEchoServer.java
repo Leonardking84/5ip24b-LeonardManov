@@ -1,3 +1,6 @@
+// Change-Log
+// 2026-01-30 - V1.1.0 - Change-Log eingefügt
+
 // Echo Client - send a message to an Echo Server and wait for the reply
 // 
 // java  -jar MyEchoServer.jar [-q] <ListenerPort>
@@ -18,7 +21,7 @@ public class MyEchoServer extends Thread {
 	
 	public static void main(String[] args) throws IOException {
 		
-		String version = new String( "MyEchoServer - Version 1.0.0" );
+		String version = new String( "MyEchoServer - Version 1.1.0" );
 		
 		ServerSocket serverSocket = null;
 
